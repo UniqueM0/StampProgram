@@ -10,17 +10,16 @@ import math
 
 # input: sheet
 def calculate(sheet):
-    # step 1
+    
     answer = sheet / 5
-    # step 2
-    rounded = math.ceil(answer)
+   
+    rounded = round(answer)
     print("sheet is : ", sheet)
     print("The answer is: ", answer)
     print("rounded is: ", rounded)
     print("===============================")
-    # output: number of stamps needed
     return rounded 
 
-output = calculate(16)
+output = calculate(10000)
 
-print("The number of stamps needed is: ", output)
+print("the return statment is: ", output)
