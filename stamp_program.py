@@ -23,4 +23,4 @@ def calculate(sheet):
 
 output = calculate(16)
 
-print("the return statement is: ", output)
+print("The number of stamps needed is: ", output)
